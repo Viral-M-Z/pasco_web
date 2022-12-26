@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+    Black Header Style
+*/
+
+.head-container{
+    background: black;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    padding: 0;
+    margin: 0;
+    width: 1150px;
+    /* background: red; */
+    
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.icons{
+    color: gray;
+    width: 12px;
+    margin-right: 12px;
+}
+.text{
+    color: gray;
+    margin-left: 12px;
+    text-decoration: solid;
+    font-family: 'Montserrat', sans-serif;
+}
+.left-icons{
+    color: gray;
+    width: 12px;
+    margin-left: 12px;
+}
+.vertical-line{
+    border-right: 1px solid gray;
+    margin-left: 8px;
+    margin-right: 3px;
+    height: 10px;
+}
+
+
+/* 
+    Main Header Style
+*/
+
+.main-header{
+    height: 160px;
+    /* {
+background-image: url('img_girl.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+} */
+}
