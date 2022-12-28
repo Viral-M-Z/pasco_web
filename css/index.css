@@ -65,20 +65,18 @@ body{
     height: 18px;
 }
 
-
 #btnLanguage:link,
-#btnLanguage:visited
-/* .custome-text-language:link */
-/* .custome-text-language:visited */
+#btnLanguage:visited,
+.custome-text-language:link,
+.custome-text-language:visited
 {
     font-size: 12px;
     line-height: 40px;
-    text-decoration: none;
     font-family: 'Montserrat';
+    text-decoration: none;
     font-style: normal;
     align-items: center;
     text-align: center;
-    font-weight: 400;
     color: gray;
 }
 
@@ -208,18 +206,17 @@ body{
 
 main{
     width: 100%;
-    height: 100%;
+    height: 700px;
     margin: 0;
     position: relative;
     overflow: hidden;
     background-color: linear-gradient(
         rgba(0, 0, 0, 0.7), 
         rgba(0, 0, 0, 0.7)
-      );
+    );
 }
 
 .mySlides{
-    
     width: 100%;
     height: 100%;
     transition: 1s;
@@ -264,4 +261,14 @@ main{
     .prev, .next {
         font-size: 11px
     }
+}
+
+menu.cust-nav-menus{
+    background: red;
+    color: white;
+    height: 70px;
+    width: 1175px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 }
