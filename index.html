@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
     <link rel="stylesheet" href="css/index.css">
-    
+
     <!-- <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
         body{
@@ -105,30 +107,112 @@
                     <a href=""><i class="custome-icons fa fa-camera-retro" aria-hidden="true"></i></a>
                 </div>
                 <div class="right-content">
-                    <a href="" class="custome-right-links">
-                        <i class="right-icons fa fa-user-circle" aria-hidden="true"></i>
-                        <span class="custome-text">SIGN IN</span>
+                    
+                    <a href="" id="btnSignIn">
+                        <i class="material-icons" style="
+                        display:inline-flex;
+                        vertical-align:middle;
+                        font-size: 16px;
+                        ">
+                            account_circle
+                        </i>
+                        <span class="custome-text-signin">SIGN IN</span>
                     </a>
+                    
+                    <!-- <a href="" class="custome-right-links">
+                        <i class="right-icons fa fa-user-circle" aria-hidden="true"></i>
+                        
+                        <span class="material-icons md-18">
+                            account_circle
+                        </span>
+                        <i class="custome-text">SIGN IN</i> -->
+                    <!-- </a> -->
                     <i class="vertical-line"></i>
-                    <a href="" class="custome-right-links">
-                        <i class="right-icons fa fa-language" aria-hidden="true"></i>
-                        <i class="custome-text">ENG</i>
-                        <i class="right-icons fa fa-angle-down" aria-hidden="true"></i>
+
+                    <a href="" id="btnLanguage">
+                        <i class="material-icons" style="
+                        display:inline-flex;
+                        vertical-align:middle;
+                        font-size: 16px;
+                        ">language</i>
+                        <i class="custome-text-language">ENG</i>
+                        <i class="material-icons"
+                        style=" 
+                            display:inline-flex;
+                            vertical-align:middle;
+                            font-size: 16px;
+                        ">
+                            keyboard_arrow_down
+                        </i>
                     </a>
                 </div>
             </div>
         </div>
 
-        <div class="menu-header">
-            <div class="custome-box">
+        <div class="menu-header"> 
 
+                <div class="header-menu-bar">
+                    <a href=""><span class="custome-brand-text">
+                        PASCO
+                    </span></a>
+
+                    <div class="header-menus">
+                        <i class="line"></i>
+                        <a href="">
+                            <i class="custome-menu-icons fa fa-shopping-cart" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    
+                </div>
+        
+        </div> 
+
+        <main>
+            <div class="mySlides fade">
+                <img src="assets/img/menu-header-back-img.jpeg" style="width:100%">
             </div>
-        </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/slide2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/slide3.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="goPrev()">&#10094;</a>
+            <a class="next" onclick="goNext()">&#10095;</a>
+
+        </main>
+
+        
 
 
+        <!-- <div class="slideshow-container">
 
+            <div class="mySliders fade">
+              <img src="assets/img/menu-header-back-img.jpeg" style="width:100%">
+            </div>
+            
+            <div class="mySliders fade">
+              <img src="assets/img/slide2.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySliders fade">
+              <img src="assets/img/slide3.jpg" style="width:100%">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+        </div> -->
+        
+    
     </div>
     <div class="content"></div>
     <div class="footer"></div>
+
+
+    <script src="js/index.js"></script>
 </body>
 </html>
