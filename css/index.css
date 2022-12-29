@@ -67,25 +67,47 @@ body{
     font-style: normal;
 }
 
+#btnLanguage,
+#btnSignIn {
+    text-decoration: none;
+    vertical-align: middle;
+    color: gray;
+}
+
 .right-icons {
     color: gray;
-    width: 12px;
-    margin-left: 4px;
+    font-size: 18px;
+    vertical-align: middle;
+    text-align: center;
+    align-self: center;
+}
+
+.custome-text-signin,
+.custome-text-language {
+    font-size: 11px;
+    margin-top: 2px;
+    letter-spacing: 0.1px;
+    word-spacing: 2.2px;
+    font-family: 'Montserrat';
 }
 
 .vertical-line {
     border-right: 1px solid gray;
-    margin-right: 14px;
-    margin-left: 14px;
+    margin-right: 13px;
+    margin-left: 9px;
+    height: 40px;
     align-items: center;
+    vertical-align: middle;
 }
 
-#btnLanguage:link,
+
+
+/* #btnLanguage:link,
 #btnLanguage:visited,
 .custome-text-language:link,
 .custome-text-language:visited
 {
-    font-size: 12px;
+    font-size: 11px;
     line-height: 40px;
     font-family: 'Montserrat';
     text-decoration: none;
@@ -109,8 +131,8 @@ body{
 .custome-text-signin:link,
 .custome-text-signin:visited
 {
-    font-size: 12px;
-    line-height: 40px;
+    font-size: 11px;
+    line-height: 40;
     font-style: normal;
     font-weight: 400;
     font-family: 'Montserrat';
@@ -127,22 +149,24 @@ body{
     text-decoration: none;
     font-style: normal;
     font-family: 'Montserrat';
-}
+} */
 
 
 
-.right-icons:hover, 
+
 .custome-icons:hover,
 .custome-text:hover{
     color: white;
 }
 
-.custome-right-links:link, .custome-right-links:visited{
+.custome-right-links:link,
+.custome-right-links:visited{
     text-decoration: none;
     color: gray;
 }
 
-.custome-right-links:active, .custome-right-links:link:hover{
+.custome-right-links:active,
+.custome-right-links:link:hover{
     color: white;
 }
 
