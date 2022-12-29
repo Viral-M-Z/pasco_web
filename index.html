@@ -7,86 +7,14 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    
 
     <link rel="stylesheet" href="css/index.css">
 
-    <!-- <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-        body{
-            padding: 0;
-            margin: 0;
-        }
-        .header{
-            margin: 0;
-            padding: 0;
-        }
-
-
-        /* 
-            Black Header Style
-        */
-
-        .head-container{
-            background: black;
-            height: 40px;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-            justify-content: center;
-            display: flex;
-        }
-        .container{
-            padding: 0;
-            margin: 0;
-            width: 1150px;
-            /* background: red; */
-            
-            align-items: center;
-            justify-content: space-between;
-            display: flex;
-        }
-        .head-top{
-        }
-        .icons{
-            color: gray;
-            width: 12px;
-            margin-right: 12px;
-        }
-        .text{
-            color: gray;
-            margin-left: 12px;
-            text-decoration: solid;
-            font-family: 'Montserrat', sans-serif;
-        }
-        .left-icons{
-            color: gray;
-            width: 12px;
-            margin-left: 12px;
-        }
-        .vertical-line{
-            border-right: 1px solid gray;
-            margin-left: 8px;
-            margin-right: 3px;
-            height: 10px;
-        }
-
-
-        /* 
-            Main Header Style
-        */
-
-        .main-header{
-            height: 160px;
-            /* {
-  background-image: url('img_girl.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-} */
-        }
-
-    </style> -->
     <title>Pasco Web App</title>
 </head>
 <body>
@@ -97,26 +25,42 @@
         <div class="head-container">
             <div class="custome-box">
                 <div class="container-icon">
-                    <a href=""><i class="custome-icons fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href=""><i class="custome-icons fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href=""><i class="custome-icons fa fa-pinterest-p" aria-hidden="true"></i></a>
-                    <a href=""><i class="custome-icons fa fa-vk" aria-hidden="true"></i></a>
-                    <a href=""><i class="custome-icons fa fa-google-plus" aria-hidden="true"></i></a>
-                    <a href=""><i class="custome-icons fa fa-behance" aria-hidden="true"></i></a>
-                    <a href=""><i class="custome-icons fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href=""><i class="custome-icons fa fa-camera-retro" aria-hidden="true"></i></a>
+                    <a href="" >
+                        <i class="custome-icons fa fa-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="custome-icons fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                        <i class="custome-icons fa fa-pinterest-p" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                        <i class="custome-icons fa fa-vk" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                        <i class="custome-icons fa fa-google-plus" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                        <i class="custome-icons fa fa-behance" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                        <i class="custome-icons fas fa-basketball-ball fa-rotate-180" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                        <i class="custome-icons fa fa-instagram" aria-hidden="true"></i>
+                    </a>
                 </div>
                 <div class="right-content">
                     
                     <a href="" id="btnSignIn">
                         <i class="material-icons" style="
-                        display:inline-flex;
                         vertical-align:middle;
-                        font-size: 16px;
+                        font-size: 18px;
+                        margin-right: 3px;
                         ">
                             account_circle
                         </i>
-                        <span class="custome-text-signin">SIGN IN</span>
+                        <span class="custome-text-signin" style="font-size: 11px;">SIGN IN</span>
                     </a>
                     
                     <!-- <a href="" class="custome-right-links">
@@ -131,16 +75,23 @@
 
                     <a href="" id="btnLanguage">
                         <i class="material-icons" style="
-                        display:inline-flex;
                         vertical-align:middle;
                         font-size: 16px;
                         ">language</i>
-                        <span class="custome-text-language">ENG</span>
+                        <span class="custome-text-language" 
+                        style="
+                            margin-left: 2px;
+                            font-size: 11px;
+                            padding: 0;
+                            margin: -1;
+                        ">
+                            ENG
+                        </span>
                         <i class="material-icons"
-                        style=" 
-                            display:inline-flex;
+                        style="
                             vertical-align:middle;
-                            font-size: 16px;
+                            font-size: 20px;
+                            margin-right: 1px;
                         ">
                             keyboard_arrow_down
                         </i>
@@ -149,7 +100,7 @@
             </div>
         </div>
 
-        <div class="menu-header"> 
+        <!-- <div class="menu-header"> 
 
                 <div class="header-menu-bar">
                     <a href=""><span class="custome-brand-text">
@@ -188,36 +139,14 @@
             <a class="prev" onclick="goPrev()">&#10094;</a>
             <a class="next" onclick="goNext()">&#10095;</a>
 
-        </main>
-
-        
-
-
-        <!-- <div class="slideshow-container">
-
-            <div class="mySliders fade">
-              <img src="assets/img/menu-header-back-img.jpeg" style="width:100%">
-            </div>
-            
-            <div class="mySliders fade">
-              <img src="assets/img/slide2.jpg" style="width:100%">
-            </div>
-            
-            <div class="mySliders fade">
-              <img src="assets/img/slide3.jpg" style="width:100%">
-            </div>
-            
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-        </div> -->
+        </main> -->
         
     
     </div>
     <div class="content"></div>
     <div class="footer"></div>
 
-
+    
     <script src="js/index.js"></script>
 </body>
 </html>

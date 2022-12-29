@@ -19,7 +19,7 @@ body{
 
 .head-container{
     background: black;
-    height: 42px;
+    height: 40px;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -38,31 +38,46 @@ body{
     display: flex;
 }
 
-.custome-icons{
-    color: gray;
-    width: 12px;
+.container-icon{
+    padding-top: 2px;
+    line-height: 40px;
+}
+.container-icon a{
+    text-decoration: none;
     margin-right: 12px;
 }
+
+.container-icon a:hover,
+.container-icon a i:active,
+.container-icon a i:hover{
+    color: white;
+}
+
+.custome-icons{
+    color: gray;
+    font-size: 14px;
+}
+
 .custome-text{
     color: gray;
     margin-left: 4px;
     text-decoration: solid;
     font-family: 'Montserrat';
-    font-size: smaller;
+    font-size: small;
     font-style: normal;
 }
 
-.right-icons{
+.right-icons {
     color: gray;
     width: 12px;
     margin-left: 4px;
 }
 
-.vertical-line{
+.vertical-line {
     border-right: 1px solid gray;
-    margin-left: 12px;
-    margin-right: 16px;
-    height: 18px;
+    margin-right: 14px;
+    margin-left: 14px;
+    align-items: center;
 }
 
 #btnLanguage:link,
@@ -75,8 +90,6 @@ body{
     font-family: 'Montserrat';
     text-decoration: none;
     font-style: normal;
-    align-items: center;
-    text-align: center;
     color: gray;
 }
 
@@ -98,14 +111,11 @@ body{
 {
     font-size: 12px;
     line-height: 40px;
-    align-items: center;
-    text-align: center;
     font-style: normal;
     font-weight: 400;
     font-family: 'Montserrat';
     color: gray;
     text-decoration: none;
-    padding-left: 12px;
 }
 
 #btnSignIn:hover,
@@ -122,7 +132,7 @@ body{
 
 
 .right-icons:hover, 
-.custome-icons:hover, 
+.custome-icons:hover,
 .custome-text:hover{
     color: white;
 }
