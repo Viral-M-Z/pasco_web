@@ -3,7 +3,7 @@
 
 const slides = document.querySelectorAll(".mySlides")
 var counter = 0;
-// console.log(slides)
+console.log(slides)
 
 
 slides.forEach(
