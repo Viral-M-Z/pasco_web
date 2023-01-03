@@ -16,6 +16,9 @@ body{
     /* background-color: black; */
 }
 
+a {
+    text-decoration: none;
+}
 
 /*
     Black Header Style
@@ -203,8 +206,8 @@ body{
         rgba(0, 0, 0, 0.7), 
         rgba(0, 0, 0, 0.7)
       ),
-      url('../assets/img/menu-header-back-img.jpeg');
-    opacity: 0.7;
+      url('../assets/img/Pasco_Free_Sample_Blog.png');
+    
     /* background-repeat: no-repeat; */
     /* background-attachment: fixed; */
     /* background-size: cover; */
@@ -320,17 +323,17 @@ menu.cust-nav-menus{
 
 
 .main-header {
-    background-color: linear-gradient(
+    /* background: linear-gradient(
         rgba(0, 0, 0, 0.7), 
         rgba(0, 0, 0, 0.7)
-    );
+    ); */
     width: 100%;
     height: 800px;
     position: relative;
     overflow: hidden;
 }
 
-.slidiss img{
+/* .slidiss img{
     width: 100%;
     height: 100%;
     transition: 1s;
@@ -339,6 +342,18 @@ menu.cust-nav-menus{
         rgba(0, 0, 0, 0.7)
     );
     position: absolute;
+} */
+
+.image-3{
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+        url("../assets/img/Pasco_Free_Sample_Blog.png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .menus{
@@ -371,13 +386,6 @@ menu.cust-nav-menus{
     margin: 0;
 }
 
-a{
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
 
 .custome-brand-text {
     color: white;
@@ -471,8 +479,9 @@ a:hover {
     /* background-color: brown; */
     width: 1170px;
     height: 100%;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
+    padding-top: 210px;
     display: flex;
 }
 
@@ -492,13 +501,15 @@ a:hover {
     font-size: 42px;
     text-align: center;
     padding: 5px 10px;
+    letter-spacing: .07vh;
+    word-spacing: .7rem;
 }
 
 .btn-readMore {
     /* background-color: blueviolet; */
     color: white;
     font-weight: bold;
-    padding: 10px;
+    padding: 4px;
     text-align: center;
     margin-top: 10px;
 }
@@ -527,16 +538,149 @@ a:hover {
     /* background-color: chocolate; */
     bottom: 0;
     position: absolute;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     color: white;
     vertical-align: middle;
     padding: 10px;
 }
+
+.header-bottom-user-img {
+    /* background-color: aqua; */
+    /* color: white; */
+    /* font-weight: bold; */
+    /* padding: 4px; */
+    text-align: center;
+    margin-top: 70px;
+}
+
+.user-img{
+    /* background-color: blue; */
+    border-radius: 50%;
+    /* background: url('/assets/img/Header_Slide-Bottom_User.png') no-repeat center fixed; */
+    width: 50px;
+    /* position: absolute; */
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+}
+
 .bottom-content-body i{
     font-size: 20px;
     text-align: center;
     vertical-align: middle;
 }
+
 .social-likes{
     margin-left: 30px;
+}
+
+.bottom-content-body span span,
+.bottom-content-body span i{
+    font-size: 14px;
+}
+
+.user-title {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.user-body {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+.menu hr{
+    width:65px;
+    position:absolute; text-align:center;
+    margin-left: 10px;
+    bottom: -8px;
+    height:2px;
+    color: magenta;
+    background-color: magenta;
+}
+
+
+
+
+
+/*
+*
+*   Body Content
+*
+*/
+
+
+/* Body Header */
+.body-header {
+    /* background-color: red; */
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+    
+    box-shadow: .5px .5px 6px grey;
+}
+
+.body-header-category {
+    /* background-color: aquamarine; */
+    width: 1170px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    padding: 0%;
+}
+
+.body-header-category span{
+    font-size: 14px;
+}
+
+.body-category-heading {
+    font-weight: bold;
+}
+
+.body-category-title {
+    background-color: aliceblue;
+    margin-left: 20px;
+    padding: 8px 25px;
+    border-radius: 20px;
+}
+
+.round{
+    border: 1px solid blue;
+}
+
+/* Body Content */
+
+.body-content {
+    background-color: red;
+    width: 100%;
+    height: 1500px;
+    justify-content: center;
+    display: flex;
+}
+
+.body-items {
+    background-color: aquamarine;
+    width: 1170px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+}
+
+.left-body-items {
+    background-color: darkgoldenrod;
+    margin-top: 20px;
+
+}
+
+.item-1 {
+    background-color: darkgoldenrod;
+    width: 120px;
+    height: 30;
 }
