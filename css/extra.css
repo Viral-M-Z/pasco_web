@@ -318,7 +318,7 @@ menu.cust-nav-menus{
 
 .readMore {
     background-color: blue;
-    opacity: .7;
+    opacity: 1;
     border: none;
     color: white;
     padding: 15px 25px;
@@ -405,4 +405,51 @@ menu.cust-nav-menus{
     background-color: magenta;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+*
+*   Full Box
+*
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.full-box {
+    margin: 0;
+    background-color: coral;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.full-box .top {
+    background-color: black;
+    width: 1170px;
+    height: 70px;
+}
+
+.full-box .middle {
+    background-color: blue;
+    width: 1170px;
+    height: 70px;
+}
 
