@@ -515,7 +515,6 @@ hr.home-vertical-line{
 
 .readMore {
     background-color: blue;
-    opacity: .7;
     border: none;
     color: white;
     padding: 14px 32px;
@@ -528,11 +527,64 @@ hr.home-vertical-line{
     cursor: pointer;
     letter-spacing: 0.8px;
 }
-.readMore:hover {
-    background-color: blue;
-    opacity: 1;
+
+.header-bottom-user-img {
+    text-align: center;
+    margin-top: 70px;
+}
+.user-img{
+    /* background-color: blue; */
+    border-radius: 50%;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+}
+.user-title {
+    margin-top: 12px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.user-body {
+    margin-top: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+}
+.bottom-user-info {
+    margin-top: 30px;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: row;
+}
+.social-comment {
+    /* background-color: aqua; */
+    /* text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center; */
+    margin-right: 20px;
+    color: white;
+}
+.social-comment .material-icons{
+    font-size: 12px;
+}
+.social-comment .tit {
+    font-size: 10px;
 }
 
+.social-likes {
+    margin-left: 20px;
+    color: white;
+}
+.social-likes i {
+    font-size: 12px;
+}
+.social-likes span {
+    font-size: 10px;
+}
 
 
 
