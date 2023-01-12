@@ -265,6 +265,8 @@ a {
     color: white;
 }
 
+.menus {align-items: flex-start;justify-items: flex-start;display: flex;}
+
 .line{
     border-left: 1px solid white;
     height: 30px;
@@ -425,17 +427,18 @@ a {
 
 #home-icon{
     /* background-color: blue; */
+    margin-top: 2px;
     margin-right: 26px;
     letter-spacing: 0.2px;
-    /* padding-left: 16px; */
+    padding-left: 14px;
     align-items: center;
-    /* justify-items: last baseline; */
-    /* line-height: 70px; */
+    height: 64px;
+    border-bottom: 4px solid #ff3f81;
     display: inline-flex;
     /* margin-bottom: -3px; */
 }
-#home-icon .home-div {
-    /* background-color: brown; */
+/* #home-icon .home-div {
+    background-color: brown;
     line-height: 66px;
     border-bottom: 4px solid #ff3f81;
     padding-left: 14px;
@@ -444,11 +447,20 @@ a {
     align-content: center;
     justify-content: center;
     justify-items: center;
-    /* padding: 0; */
+    padding: 0;
     display: inline-flex;
     margin: 0;
+} */
+#home-icon .menu-text {
+    /* background-color: aqua; */
+    /* align-items: center; */
+    /* align-content: flex-end; */
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: bold;
+    margin-top: 2px;
 }
-#home-icon .home-div .menu-text {
+#home-icon .menu-text {
     /* background-color: aqua; */
     /* align-items: center; */
     /* align-content: flex-end; */
@@ -456,7 +468,7 @@ a {
     margin-right: 10px;
     font-weight: bold;
 }
-#home-icon .home-div .menu-icon {
+#home-icon .menu-icon {
     align-items: center;
     align-content: center;
     font-size: 10px;
@@ -562,13 +574,15 @@ a {
 }
 .user-title {
     margin-top: 14px;
+    margin-right: 4px;
     color: white;
     font-size: 14px;
-    word-spacing: 2px;
-    font-weight: bold;
+    word-spacing: 0.3px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
 }
 .user-body {
-    margin-top: 9px;
+    margin-top: 8px;
     color: white;
     font-size: 12px;
     /* font-weight: 200; */
@@ -577,7 +591,7 @@ a {
 }
 .bottom-user-info {
     /* border: 1px solid black; */
-    margin-top: 29px;
+    margin-top: 31px;
     justify-content: space-between;
     display: flex;
     flex-flow: row;
@@ -600,28 +614,30 @@ a {
     color: white;
     margin-right: 15px;
     margin-left: 10px;
+    cursor: pointer;
 }
 .social-comment .material-icons{
-    font-size: 14px;
+    font-size: 16px;
 }
 .social-comment .tit {
     font-size: 12px;
     margin-left: 3px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.6px;
 }
 
 .social-likes {
     margin-left: 14px;
-    margin-right: 13px;
+    margin-right: 18px;
     color: white;
+    cursor: pointer;
 }
 .social-likes i {
     font-size: 14px;
 }
 .social-likes span {
     font-size: 12px;
-    margin-left: 3px;
-    letter-spacing: 0.4px;
+    margin-left: 1.6px;
+    letter-spacing: 0.6px;
 }
 
 
@@ -682,98 +698,3 @@ a {
 
 
 
-/*
-*
-*   Body Content
-*
-*/
-
-
-/* Body Header */
-.body-header {
-    /* background-color: red; */
-    width: 100%;
-    height: 60px;
-    justify-content: center;
-    vertical-align: middle;
-    display: flex;
-    
-    box-shadow: .5px .5px 5px grey;
-}
-
-.body-header-category {
-    /* background-color: aquamarine; */
-    width: 1170px;
-    height: 100%;
-    align-items: center;
-    display: flex;
-    padding: 0%;
-}
-
-/* .body-header-category span {
-    font-size: 11.8px;
-} */
-
-.body-category-heading {
-    font-size: 11.7px;
-    align-items: center;
-    display: flex;
-    font-weight: bold;
-}
-
-.body-category-title-first {
-    font-size: 10.8px;
-    background-color: aliceblue;
-    margin-left: 21px;
-    padding: 8px 28px;
-    align-items: center;
-    display: flex;
-    border-radius: 20px;
-    color: blue;
-}
-.body-category-title{
-    font-size: 10.8px;
-    background-color: #f5f5f5;
-    padding: 8px 28px;
-    align-items: center;
-    display: flex;
-    border-radius: 20px;
-    margin-left: 15px;
-}
-
-
-.round{
-    border: 1px solid blue;
-}
-
-/* Body Content */
-
-.body-content {
-    background-color: red;
-    width: 100%;
-    height: 1500px;
-    justify-content: center;
-    display: flex;
-}
-
-.body-items {
-    background-color: aquamarine;
-    width: 1170px;
-    height: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 0%;
-}
-
-.left-body-items {
-    background-color: darkgoldenrod;
-    margin-top: 20px;
-
-}
-
-.item-1 {
-    background-color: darkgoldenrod;
-    width: 120px;
-    height: 30;
-}
