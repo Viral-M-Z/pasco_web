@@ -50,7 +50,7 @@ a {
 
 .container-icon a{
     text-decoration: none;
-    margin-right: 10.6px;
+    margin-right: 11px;
 }
 
 .container-icon a:hover,
@@ -73,124 +73,85 @@ a {
     font-style: normal;
 }
 
-#btnLanguage,
-#btnSignIn {
-    text-decoration: none;
-    vertical-align: middle;
-    color: gray;
+
+.right-content {
+    display: flex;
 }
 
-.custome-text-language:hover,
-.custome-text-language:active,
-.custome-text-signin:hover,
-.custome-text-signin:active,
-#btnLanguage:hover,
-#btnLanguage:active,
-#btnSignIn:hover,
-#btnSignIn:active,
-.custome-text-language:hover,
-.custome-text-language:active,
-.custome-text-signin:hover,
-.custome-text-signin:active,
-.right-icons:hover,
-.right-icons:active
-{
-    text-decoration: none;
-    vertical-align: middle;
-    color: white;
-}
-
-
-#btnLanguage:hover,
-#btnLanguage:active,
-.custome-text-language:hover,
-.custome-text-language:active {
-    text-decoration: none;
-    vertical-align: middle;
-    color: white;
-}
-
-
-/* #btnLanguage:link,
-#btnLanguage:visited,
-.custome-text-language:link,
-.custome-text-language:visited
-{
-    text-decoration: none;
-    color: gray;
-}
-
-#btnLanguage:hover,
-#btnLanguage:active,
-.custome-text-language:hover,
-.custome-text-language:active
-{
-    color: white;
-    text-decoration: none;
-    font-style: normal;
-}
-
-#btnSignIn:link,
-#btnSignIn:visited,
-.custome-text-signin:link,
-.custome-text-signin:visited
-{
-    color: gray;
-    text-decoration: none;
-}
-
-#btnSignIn:hover,
-#btnSignIn:active,
-.custome-text-signin:hover,
-.custome-text-signin:active
-{
-    color: white;
-    text-decoration: none;
-} */
-
-
-.right-icons {
-    color: gray;
-    font-size: 18px;
-    vertical-align: middle;
-    text-align: center;
-    align-self: center;
-}
-
-.custome-text-signin,
-.custome-text-language {
-    font-size: 11px;
-    margin-top: 2px;
-    letter-spacing: 0.1px;
-    word-spacing: 2.2px;
-    font-family: 'Montserrat';
-}
-
-.vertical-line {
-    border-right: 1px solid gray;
-    margin-right: 13px;
-    margin-left: 9px;
-    height: 40px;
+.right-content .btnSignIn {
+    margin-right: 14px;
+    opacity: 0.502;
     align-items: center;
-    vertical-align: middle;
+    display: inline-flex;
+}
+.btnSignIn:hover {
+    color: #ffffff;
+    opacity: 1;
+}
+.btnSignIn .right-icons {
+    font-size: 18px;
+    margin-right: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+.custome-text-signin {
+    margin-top: 1px;
+    font-size: 11px;
+    letter-spacing: 0.6px;
+    color: #ffffff;
+    font-weight: 400;
+    align-items: center;
+    display: inline-flex;
+    word-spacing: 1.2px;
+}
+
+.v-line {
+    line-height: 40px;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    display: inline-flex;
+}
+.vertic-line {
+    border-left: 1px solid rgba(180, 180, 180, 0.380);
+    height: 20px;
+    opacity: 0.502;
+    color: #ffffff;
+    display: inline-flex;
 }
 
 
-
-.custome-icons:hover,
-.custome-text:hover{
+.right-content .btnLanguage {
+    /* border-left: 1px solid rgba(180, 180, 180, 0.380); */
+    margin-left: 15px;
+    opacity: 0.502;
+    align-items: center;
+    display: inline-flex;
+}
+.btnLanguage:hover {
     color: white;
+    opacity: 1;
 }
-
-.custome-right-links:link,
-.custome-right-links:visited{
-    text-decoration: none;
-    color: gray;
+.right-content .right-icons {
+    color: #ffffff;
+    text-align: center;
 }
-
-.custome-right-links:active,
-.custome-right-links:hover{
-    color: white;
+.right-content i.key-arr-dn {
+    font-size: 20px;
+    margin: 0px -4px 0px 0px;
+}
+.right-content i.lang-icon {
+    font-size: 17px;
+}
+.right-content .custome-text-language {
+    margin: 0px -2px -1px 6px;
+    font-size: 11px;
+    letter-spacing: 0.6px;
+    color: #ffffff;
+    font-weight: 400;
 }
 
 
