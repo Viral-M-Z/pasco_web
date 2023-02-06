@@ -2074,6 +2074,8 @@ a {
     display: flex;
 }
 .footer .subscribe-email-body {
+    /* opacity: 0.7;
+    background-color: #55acee; */
     width: 1170px;
     height: 100%;
     align-items: center;
@@ -2082,13 +2084,13 @@ a {
 .footer .subscribe-text {
     margin-top: -6px;
     font-size: 42px;
-    letter-spacing: 0.8px;
+    letter-spacing: 1.2px;
     /* line-height: 36px; */
     color: #ffffff;
     font-weight: 900;
 }
 .footer .sub-input-body {
-    margin-left: 44px;
+    margin-left: 32px;
     /* opacity: 0.380; */
     width: 232px;
     padding: 15px 18px;
@@ -2144,6 +2146,8 @@ a {
     display: flex;
 }
 .footer .footer-body-content {
+    /* opacity: 0.7;
+    background-color: #55acee; */
     width: 1170px;
     display: flex;
 }
@@ -2176,14 +2180,13 @@ a {
 
     display: flex;
 }
-.footer div.pages-widget-active::after {
-    content: "\2212";
-}
+
 .footer .pages-collapsible-title span {
+    margin-left: 15px;
     font-family: "Open Sans", sans-serif;
 }
 .footer .pages-collapsible-title {
-    margin-left: 15px;
+    margin-top: 25px;
     font-size: 14px;
     width: 100%;
     cursor: pointer;
@@ -2197,9 +2200,32 @@ a {
     justify-content: space-between;
     align-items: center;
     display: flex;
+
+    width: 270px;
+    height: 45px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    cursor: pointer;
+}
+.footer .pages-widget button.widget-b,
+.footer .pages-widget button.widget-c,
+.footer .pages-widget button.widget-d,
+.footer .pages-widget button.widget-e {
+    margin-top: 5px;
 }
 .footer .pages-collapsible-title::after {
     content: '\002B';
+    font-weight: normal;
+    display: flex;
+    margin-right: 12px;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.502);
+    display: flex;
+    align-items: center;
+    margin-top: -2px;
+}
+.footer button.pages-active::after {
+    content: "\2212";
     font-weight: normal;
     display: flex;
     margin-right: 12px;
@@ -2220,16 +2246,15 @@ a {
     height: 124px;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
-    border: 1px solid rgba(255, 255, 255, 0.38);
+    /* border: 1px solid rgba(255, 255, 255, 0.38); */
     border-top: 0px;
     flex-direction: column;
     flex-wrap: nowrap;
     display: flex;
     
-    max-height: 0px;
+    max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-
 }
 .footer .pages-body-content .body-content-title-a {
     margin-top: 13px;
@@ -2239,6 +2264,15 @@ a {
 }
 .footer .pages-body-content .body-content-title-c {
     margin-top: 17px;
+    margin-bottom: 20px;
+}
+.footer .pages-body-content .title {
+    margin-left: 13px;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    color: rgba(255, 255, 255, 0.502);
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
 }
 /* Collapsible End */
 
