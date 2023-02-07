@@ -2074,8 +2074,8 @@ a {
     display: flex;
 }
 .footer .subscribe-email-body {
-    /* opacity: 0.7;
-    background-color: #55acee; */
+    opacity: 0.7;
+    background-color: #55acee;
     width: 1170px;
     height: 100%;
     align-items: center;
@@ -2362,7 +2362,7 @@ a {
 .footer .twitter-widget {
     margin: 0px;
     margin-top: 46px;
-    margin-left: 29px;
+    margin-left: 30px;
     flex-direction: column;
     display: flex;
 }
@@ -2375,6 +2375,71 @@ a {
 }
 .footer .twitter-widget-body {
     margin: 0px;
-    margin-top: 30px;
+    margin-top: 22px;
+    width: 270px;
+    
+    display: flex;
+    flex-direction: column;
 }
+.footer .twitter-widget-body .widget-1 {
+    margin-top: 8px;
+}
+.footer .twitter-widget .widget-body {
+    height: 74px;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.122);
+
+    display: flex;
+    flex-direction: column;
+}
+.footer .twitter-widget .widget-body .top-body {
+    width: 100%;
+    display: flex;
+}
+.footer .widget-body .body-icon {
+    margin-left: 9px;
+    margin-right: 15px;
+    font-size: 24px;
+    color: #55acee;
+    display: flex;
+}
+.footer .widget-body .body-content {
+    background-color: transparent;
+    width: 100%;
+    justify-content: left;
+    overflow: auto;
+    display: flex;
+}
+.footer .widget-body .body-content .content {
+    /* opacity: 0.702; */
+    /* width: 223px; */
+    width: 210px;
+    /* height: 150px; */
+    font-size: 14px;
+    /* letter-spacing: 0.6px; */
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.702);
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+.footer .twitter-widget .widget-body .bottom-body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* opacity: 0.502; */
+    font-size: 12px;
+    /* letter-spacing: 0.6px; */
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.502);
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+.footer .twitter-widget .bottom-body .link {
+    color: rgba(255, 255, 255, 0.502);
+    text-decoration: underline;
+}
+
 
