@@ -4,17 +4,18 @@ var i;
 
 for (i = 0; i < acc.length; i++) {
     
-    // var previous = acc[i];
-    // // console.log(acc[i]);
-    // if (acc[i] != previous) {
-    //     previous.addEventListener("click", function () {
-    //        this.classList.toggle("pages-active"); 
-    //        var panel = this.nextElementSibling;
-    //        panel.style.maxHeight = "0px";
-    //     });
-    // }
+    var previous = acc[i];
+    // console.log(acc[i]);
+    if (acc[i] != previous) {
+        previous.addEventListener("click", function () {
+           this.classList.toggle("pages-active"); 
+           var panel = this.nextElementSibling;
+           panel.style.maxHeight = "0px";
+        });
+    }
     // acc[i].onclick = function(){alert('Number ' + i + ' was clicked')};
     // console.log(this);
+
     acc[i].addEventListener("click", function () {
         
         // alert('Number ' + e + ' was clicked');
