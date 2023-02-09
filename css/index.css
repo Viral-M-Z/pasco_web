@@ -2452,7 +2452,7 @@ a {
 }
 
 .footer .social-widget {
-    margin-top: 12px;
+    margin-top: 13px;
     flex-direction: column;
     display: flex;
 }
@@ -2464,7 +2464,7 @@ a {
     font-weight: 700;
 }
 .footer .social-widget .right-social-btns-box {
-    margin-top: 18px;
+    margin-top: 15px;
     width: 270px;
     display: flex;
 }
@@ -2603,35 +2603,64 @@ a {
     display: flex;
 }
 .footer .footer-bottom-body .bottom-heading {
+    padding: 0px;
+    margin: 0px;
     align-items: center;
     display: flex;
 }
 .footer .footer-bottom .header-text {
+    margin: 0px;
     margin-right: 42px;
     font-size: 12px;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.2px;
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: none;
     list-style: none;
 }
 .footer .footer-bottom .header-text a {
+    margin: 0px;
+    padding: 0px;
     text-decoration: none;
     color: #ffffff;
 }
-.footer .footer-bottom-body .bottom-language {
+.footer .footer-bottom-body .right-bottom {
     color: rgba(255, 255, 255, 0.502);
     align-items: center;
     display: flex;
 }
-.footer .bottom-language .lang {
-    font-size: 20px;
-    margin-right: 6px;
+.footer .footer-bottom-body .right-bottom .search-input {
+    margin-right: 70px;
+    width: 188px;
+    padding: 0px 11px 0px 19px;
+    height: 33px;
+    border-radius: 17px;
+    /* background-color: rgba(41, 98, 255, 0.38); */
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 }
-.footer .bottom-language p {
+.footer .footer-bottom-body .right-bottom span {
+    font-size: 18px;
+}
+.footer .right-bottom .footer-search {
+    outline: none;
+    border: none;
+    width: 180px;
+    color: rgba(255, 255, 255, 0.38);
+    background-color: transparent;
+    display: flex;
+}
+.footer .right-bottom .lang {
+    font-size: 20px;
+    margin-right: 7px;
+}
+.footer .right-bottom p {
     font-size: 11px;
 }
-.footer .bottom-language .down {
+.footer .right-bottom .down {
     font-size: 18px;
     margin-right: -2px;
 }

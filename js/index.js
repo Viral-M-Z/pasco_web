@@ -4,16 +4,21 @@ var i;
 
 for (i = 0; i < acc.length; i++) {
     
-    var previous = acc[i];
+    // var previous = acc[i];
     // console.log(acc[i]);
-    if (acc[i] != previous) {
-        previous.addEventListener("click", function () {
-           this.classList.toggle("pages-active"); 
-           var panel = this.nextElementSibling;
-           panel.style.maxHeight = "0px";
-        });
-    }
-    // acc[i].onclick = function(){alert('Number ' + i + ' was clicked')};
+    // if (acc[i] != previous) {
+    //     previous.addEventListener("click", function () {
+    //        this.classList.toggle("pages-active"); 
+    //        var panel = this.nextElementSibling;
+    //        panel.style.maxHeight = "0px";
+    //     });
+    // }
+    acc[i].onclick = function() {
+        for (let j = 0; j < acc.length; j++) {
+            const element = acc[j];
+            console.log();
+        }
+    };
     // console.log(this);
 
     acc[i].addEventListener("click", function () {
@@ -25,6 +30,7 @@ for (i = 0; i < acc.length; i++) {
         // console.log(panel.style);
         // console.log(this.style);
         if (panel.maxHeight) {
+            console.log(panel.maxHeight);
             panel.border = "0px";
             panel.maxHeight = null;
             parentC.borderBottomLeftRadius = "4px";
